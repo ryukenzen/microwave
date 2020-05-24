@@ -1,3 +1,5 @@
+Trigger a CI job to publish the pages.
+
 ![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)
 
 ---
