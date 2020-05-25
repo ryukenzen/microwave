@@ -16,11 +16,11 @@ signals without any visible information in a specific 3D space centered at the
 sensor. Thus, privacy intrusion can be avoided. When we build the data set, we
 take into account the reality of action recognition. It is likely that
 multiple actions may happen at the same time, thus we could only provide
-multiple labels which tell what actions happened in one ``video'' clip [1].
+multiple labels which tell what actions happened in one `video' clip [1].
 Since labeling data is a time-consuming and labor-intensive job, and the
 microwave signals are invisible, it is impossible to precisely mark the
 bounding box of each individual action. In this data set, the labels are only
-given at the level of ``video'' clip [1]. 
+given at the level of `video' clip [1]. 
 
 In contrast to most camera videos and a few small wireless data sets that only
 provide single-person actions, our data set provides a large number of
@@ -29,8 +29,8 @@ recognition in 360-degree videos [J. Li, et al., WACV20] .  Thus, this data
 set can be used as a benchmark for action recognition in microwave sensors.
 
 
-- [1] ``video'' clip: It is worth noting that we do not use any real videos for
-  learning. The word of ``video'' is only used for easy understanding to
+- [1] `video' clip: It is worth noting that we do not use any real videos for
+  learning. The word of `video' is only used for easy understanding to
   denote contiguous frames of 3D spatial signals.
 
 
@@ -45,14 +45,14 @@ different background noise and viewpoints.
 Actions
 -------
 
-In total, we design ten regular actions, including ``Wave hands (Wave)'',
-``Clap hands (Clap)'', ``Tie the shoes (Tie)'', ``Pick up bag (Pick)'',
-``Throw away bag (Throw)'', ``Sit down (Sit)'', ``Stand up (Stand)'', ``Walk
-(Walk)'', ``Run (Run)'', and ``Carry something (Carry)''. In addition to
+In total, we design ten regular actions, including `Wave hands (Wave)',
+`Clap hands (Clap)', `Tie the shoes (Tie)', `Pick up bag (Pick)',
+`Throw away bag (Throw)', `Sit down (Sit)', `Stand up (Stand)', `Walk
+(Walk)', `Run (Run)', and `Carry something (Carry)'. In addition to
 single-person actions, we also record two-person actions simultaneously, which
-are difficult to distinguish, such as ``Walk--Run'', ``Wave--Clap'',
-``Tie--Pick'', etc. Furthermore, there is also triple-person actions data,
-such as ``Walk--Carry--Run''. The 3D sensing space of each sensor is set to
+are difficult to distinguish, such as `Walk--Run', `Wave--Clap',
+`Tie--Pick', etc. Furthermore, there is also triple-person actions data,
+such as `Walk--Carry--Run'. The 3D sensing space of each sensor is set to
 2m x 2m x 1.8m. This means that we collect reflection signals of a 3D
 space centered at the sensor, with 2 meters in length, 2 meters in width, and
 1.8 meters in height.
@@ -79,16 +79,16 @@ SAMPLES of VIDEO CLIPS
 
 - Small size (400x300)
 
-[[carry-throw-sit.png](small/carry-throw-sit.png)] |
-[[run-pick-wave.png](small/run-pick-wave.png)] |
-[[stand-walk-clap.png](small/stand-walk-clap.png)] |
-[[wave-clap-walk.png](small/wave-clap-walk.png)]
+[![carry-throw-sit.png](small/carry-throw-sit.png)] |
+[![run-pick-wave.png](small/run-pick-wave.png)] |
+[![stand-walk-clap.png](small/stand-walk-clap.png)] |
+[![wave-clap-walk.png](small/wave-clap-walk.png)]
 
 
 STRUCTURE of DIRECTORY & FILES
 ==============================
 
-```TEXT
+``TEXT
 
 ./
 |-- README.md
@@ -336,5 +336,5 @@ STRUCTURE of DIRECTORY & FILES
     |-- 060.mat
     `-- 061.mat
 
-```
+``
 
